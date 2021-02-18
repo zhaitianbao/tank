@@ -188,7 +188,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CGame.h" />
+    <ClInclude Include="CGameMenuBackground.h" />
+    <ClInclude Include="CGameMenuPanel.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GameEntry.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
@@ -197,6 +200,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CGame.cpp" />
+    <ClCompile Include="CGameMenuBackground.cpp" />
+    <ClCompile Include="CGameMenuPanel.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -23,6 +23,8 @@ IMPLEMENT_DYNAMIC(CMainFrame, CFrameWnd)
 BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
 	ON_WM_CREATE()
 	ON_WM_TIMER()
+	ON_WM_MOUSEMOVE()
+	ON_WM_LBUTTONUP()
 END_MESSAGE_MAP()
 
 // CMainFrame 构造/析构
@@ -78,4 +80,16 @@ void CMainFrame::OnTimer(UINT_PTR nIDEvent)
 	}
 
 	CFrameWnd::OnTimer(nIDEvent);
+}
+
+void CMainFrame::OnMouseMove(UINT nFlags,CPoint point) 
+{
+	m_game.OnMouseMove(nFlags, point);
+	CFrameWnd::OnMouseMove(nFlags, point);
+}
+
+void CMainFrame::OnLButtonUp(UINT nFlags, CPoint point)
+{
+	m_game.OnLButtonUp(nFlags, point);
+	CFrameWnd::OnLButtonUp(nFlags, point);
 }
