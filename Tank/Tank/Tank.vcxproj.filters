@@ -45,6 +45,30 @@
     <ClInclude Include="CGameMenuPanel.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="GameHit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTankEntry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMenuPlayer01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMenuPlayer02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tank.cpp">
@@ -63,6 +87,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CGameMenuPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTankEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMenuPlayer01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMenuPlayer02.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

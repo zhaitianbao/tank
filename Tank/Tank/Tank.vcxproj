@@ -187,11 +187,19 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CBot.h" />
+    <ClInclude Include="CBullet.h" />
     <ClInclude Include="CGame.h" />
     <ClInclude Include="CGameMenuBackground.h" />
     <ClInclude Include="CGameMenuPanel.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CTankEntry.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameEntry.h" />
+    <ClInclude Include="GameHit.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="KeyMenuPlayer01.h" />
+    <ClInclude Include="KeyMenuPlayer02.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
@@ -199,9 +207,16 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CBot.cpp" />
+    <ClCompile Include="CBullet.cpp" />
     <ClCompile Include="CGame.cpp" />
     <ClCompile Include="CGameMenuBackground.cpp" />
     <ClCompile Include="CGameMenuPanel.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CTankEntry.cpp" />
+    <ClCompile Include="GameHit.cpp" />
+    <ClCompile Include="KeyMenuPlayer01.cpp" />
+    <ClCompile Include="KeyMenuPlayer02.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
