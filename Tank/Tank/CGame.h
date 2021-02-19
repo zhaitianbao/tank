@@ -178,6 +178,5 @@ private:
 
 	CKeyMenuPlayer02 m_keymenu02;
 
-	bool CGame::GameInitOne2Bot();
 };
 

@@ -1,6 +1,6 @@
-#include "stdafx.h"
+#include "pch.h"
 #include "GameMenuPanel2.h"
-#include "Game.h"
+#include "CGame.h"
 
 
 CGameMenuPanel2::CGameMenuPanel2()

@@ -80,6 +80,7 @@ void CGameMenuPanel::OnLButtonUp(UINT nFlags, CPoint point)
 		auto rect = get<1>(menuItem.vImgInfoPtr[menuItem.index]);
 		if (rect.Contains(pt))
 		{
+			m_pParent->SetStep(CGame::EGameTypeOne2BotMenu);
 			return;
 		}
 	}
@@ -89,6 +90,7 @@ void CGameMenuPanel::OnLButtonUp(UINT nFlags, CPoint point)
 		auto rect = get<1>(menuItem.vImgInfoPtr[menuItem.index]);
 		if (rect.Contains(pt))
 		{
+			m_pParent->SetStep(CGame::EGameTypeOne2OneMenu);
 			return;
 		}
 	}
