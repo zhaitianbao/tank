@@ -197,6 +197,9 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameEntry.h" />
     <ClInclude Include="GameHit.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="GameMenuPanel2.h" />
+    <ClInclude Include="GamePathFinder.h" />
     <ClInclude Include="GameTimer.h" />
     <ClInclude Include="KeyMenuPlayer01.h" />
     <ClInclude Include="KeyMenuPlayer02.h" />
@@ -205,6 +208,7 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Tank.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Wall.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CBot.cpp" />
@@ -215,6 +219,8 @@
     <ClCompile Include="CPlayer.cpp" />
     <ClCompile Include="CTankEntry.cpp" />
     <ClCompile Include="GameHit.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="GameMenuPanel2.cpp" />
     <ClCompile Include="KeyMenuPlayer01.cpp" />
     <ClCompile Include="KeyMenuPlayer02.cpp" />
     <ClCompile Include="MainFrm.cpp" />
@@ -225,6 +231,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Tank.rc" />

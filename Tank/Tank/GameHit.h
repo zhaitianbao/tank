@@ -1,7 +1,5 @@
 #pragma once
 #include <gdiplus.h>
-#include "vector"
-using namespace std;
 #pragma comment(lib,"Gdiplus.lib")
 using namespace Gdiplus;
 // 向量及相关运算

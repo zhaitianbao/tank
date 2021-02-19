@@ -11,3 +11,47 @@
 #include "framework.h"
 
 #endif //PCH_H
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <cassert>
+#include <cmath>
+#include <deque>
+#include <exception>
+#include <fstream>
+#include <functional>
+#include <ios>
+#include <iostream>
+#include <istream>
+#include <iterator>
+#include <limits>
+#include <list>
+#include <locale>
+#include <map>
+#include <memory>
+#include <numeric>
+#include <ostream>
+#include <queue>
+#include <random>
+#include <regex>
+#include <set>
+#include <stack>
+#include <string>
+#include <strstream>
+#include <tuple>
+#include <vector>
+
+using namespace std;
+
+#define PI 3.14159265357f
+
+typedef struct PathNode {
+	int x;
+	int y;
+}PathNode;
+
+typedef std::vector<PathNode> VPath;
+
+//删除内存的宏
+#define SAFE_DEL_PTR(ptr) if((ptr)!=nullptr){delete ptr;ptr=nullptr;}
